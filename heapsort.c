@@ -18,7 +18,7 @@ void sift_down(int *A, int len, int i)
 	int r = RIGHT(i);
 	int largest;
 	
-	//find the largest of ternery
+	//find the largest of ternary
 	if (l < len && A[i] < A[l])
 		largest = l;
 	else 
